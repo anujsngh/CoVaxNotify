@@ -6,7 +6,7 @@ from models import User
 from utils import get_hash
 
 app = Flask(__name__)
-app.secret_key = "58fd5679c4166160fa5264beaa5eb67a0564764c5cfba1a9" # random generate
+app.secret_key = "SECRET_KEY_HERE" # random generate
 
 ########################
 # Sample Account Page
